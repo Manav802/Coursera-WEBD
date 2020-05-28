@@ -1,0 +1,67 @@
+body
+{
+	font-family: sans-serif;
+	box-sizing: border-box;
+	font-size: 0.7rem;
+	text-align: center;
+}
+h1
+{
+	font-size: 1.225rem;
+}
+.chicken,.beef,.fish
+{
+	margin:2% 1% 2% 1%;
+	text-align: justify;
+	display: inline-block;
+	position: relative;
+	background-color: grey;
+	border: solid 1px;
+	margin: 2%;
+}
+p
+{
+	margin: 2%;
+}
+.title
+{
+	text-align: right;
+}
+.chicken span,.beef span,.fish span
+{
+	padding: 0px 40px;
+	border: solid 1px;
+	font-size: 0.875rem;
+}
+.chicken span
+{
+	font-weight: bold;
+	background-color:pink;
+}
+.beef span
+{
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+.fish span
+{ 
+	font-weight: bold;
+	background-color:cyan;
+}
+@media(min-width:768px) and (max-width: 991px)
+{
+	.chicken,.beef
+	{
+		width: 44%;
+	}
+	.fish
+	{
+		width: 93%;
+	}
+}
+
+@media (max-width: 767px)
+{
+
+}
